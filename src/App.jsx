@@ -88,7 +88,7 @@ const App = ({ isServerInfo }) => {
               <NavLink to="/NFTMarketPlace">Explore Market</NavLink>
             </Menu.Item>
             <Menu.Item key="nft">
-              <NavLink to="/nftBalance">Your Collection</NavLink>
+              <NavLink to="/nftBalance">Your 2D NFT's</NavLink>
             </Menu.Item>
             <Menu.Item key="nft3d">
               <NavLink to="/Nft3d">Your 3D NFT's</NavLink>

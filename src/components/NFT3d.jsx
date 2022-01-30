@@ -35,6 +35,7 @@ function NFT3d() {
 
             // Add link to placeholder image
             nftLink.href = `https://rarible.com/token/${data.items[i].id}`
+            nftLink.target = "_blank"
 
             // Append elements to container
             nftLink.append(nftPhoto)
