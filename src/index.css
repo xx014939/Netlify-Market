@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #000000;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.threed-nft-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.threed-card {
+  background-color: #000000;
+  height: auto;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #0ff;
+}
+
+.threed-card__title {
+  color: #0ff;
+  font-size: 16px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.threed-card__description {
+  color: #0ff;
+}
+
+.threed-card__photo {
+  text-align: center;
+  background-color: #000;
+  color: #0ff;
+  font-size: 40px;
+  width: 100%;
+  border: 1px solid #0ff;
+  min-height: 100px;
+  padding-top: 15px;
+}
+
+.ant-layout {
+  background-color: black !important;
+}
+
+.ant-menu-item a {
+  color: #0ff !important;
+}
+.ant-layout-header {
+  background-color: black !important;
+  color: #0ff;
+  border-bottom: 1px solid #0ff !important;
+}
+
+.ant-layout-header .ant-menu {
+  background-color: black;
+  color: #0ff;
+  border: none;
+}
+
+.ant-menu-title-content {
+  background-color: black;
+  color: #0ff !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a, .ant-menu-horizontal > .ant-menu-item a:hover {
+  background-color: black;
+  color: #0ff !important;
+}
+
+.ant-menu::before {
+  display: none !important;
+}
+
+.ant-menu-vertical {
+  background-color: black !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border: none !important;
+}
+
+.active {
+  border-bottom: 1px solid #0ff;
+}
+
+.ant-table-tbody {
+  background-color: black;
+  color: white;
+}
+
+.ant-table-tbody:hover .ant-empty-description {
+  color: black;
+}
+
+.ant-empty-description {
+  color: white;
+}
+
+.ant-btn {
+  background-color: #0ff;
+  border: 1px solid !important;
+  color: black;
+}
+
+.ant-btn:hover {
+  background-color: black;
+  border: 1px solid !important;
+  color: #0ff;
+}
+
+.ant-btn:focus {
+  background-color: black;
+  border: 1px solid !important;
+  color: #0ff;
+}
+
+.ant-dropdown-menu {
+  background-color: #0ff;
+  color: black;
+}
+
+.ant-dropdown-menu-item {
+  background-color: black;
+  color: #0ff;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #0ff;
+  color: black;
+}
