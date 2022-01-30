@@ -11,7 +11,7 @@ function NFT3d() {
         console.log(data)
       
         for (let i = 0; i < data.items.length; i++) {
-          if (data.items[i].lazySupply !== "0") {
+          if (data.items[i].lazySupply !== "0" && data.items[i].meta.name.includes("3D NFT:")) {
             console.log(data.items[i])
             console.log(i)
 
