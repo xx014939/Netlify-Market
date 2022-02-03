@@ -187,3 +187,19 @@ select {
   background-color: #0ff;
   color: black;
 }
+
+.input-container {
+  color: white;
+}
+
+.input-container button {
+  color: #000;
+  background-color: #0ff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.input-container input {
+  color: black;
+}

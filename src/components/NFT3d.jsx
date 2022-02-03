@@ -5,7 +5,8 @@ function NFT3d() {
 
     // Retrieve Lazy Minted NFT's from Rarible
     async function retrieveLazy () {
-        const response = await fetch('https://ethereum-api.rarible.org/v0.1/nft/items/byOwner?owner=0x868e35847A7F23832137f4eFB92436159a9AC6A1')
+        const walletAddress = document.querySelector('.wallet-input-box').value
+        const response = await fetch(`https://ethereum-api.rarible.org/v0.1/nft/items/byOwner?owner=${walletAddress}`)
       
         let data = await response.json()
         console.log(data)
@@ -45,12 +46,19 @@ function NFT3d() {
             document.querySelector(".threed-nft-container").append(new3DNFT)
           }
         }
+
+        document.querySelector('.input-container').style.display = 'none'
       
     }
       
-        retrieveLazy ()
+      
     return (
         <>
+        <div className="input-container">
+          <div>Please enter wallet address</div>
+          <input className="wallet-input-box"/>
+          <button className="submit-button" onClick={retrieveLazy}>Submit</button>
+        </div>
         <div className="threed-nft-container">
             
         </div>
