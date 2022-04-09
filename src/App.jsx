@@ -18,8 +18,8 @@ import NativeBalance from "components/NativeBalance";
 import "./style.css";
 import Text from "antd/lib/typography/Text";
 import NFTMarketTransactions from "components/NFTMarketTransactions";
-
 import NFT3d from "components/NFT3d";
+import MeterSwap from "components/MeterSwap";
 const { Header, Footer } = Layout;
 
 const styles = {
@@ -93,6 +93,9 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="nft3d">
               <NavLink to="/Nft3d">Your 3D NFT's</NavLink>
             </Menu.Item>
+            <Menu.Item key="meter">
+              <NavLink to="/MeterSwap">Meter</NavLink>
+            </Menu.Item>
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">Your Transactions</NavLink>
             </Menu.Item>
@@ -116,6 +119,9 @@ const App = ({ isServerInfo }) => {
             </Route>
             <Route path="/Nft3d">
               <NFT3d />
+            </Route>
+            <Route path="/MeterSwap">
+              <MeterSwap />
             </Route>
           </Switch>
           <Redirect to="/NFTMarketPlace" />
