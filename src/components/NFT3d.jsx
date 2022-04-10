@@ -55,6 +55,7 @@ function NFT3d() {
     return (
         <>
         <div className="input-container">
+          <div className="warning-text">Rarible has recently updated the data included in their API response which has broken this page. We are working on a solution ASAP.</div>
           <div>Please enter wallet address</div>
           <input className="wallet-input-box"/>
           <button className="submit-button" onClick={retrieveLazy}>Submit</button>

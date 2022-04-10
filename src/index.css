@@ -203,3 +203,7 @@ select {
 .input-container input {
   color: black;
 }
+
+.warning-text {
+  color: red;
+}
