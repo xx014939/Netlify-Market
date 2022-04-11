@@ -77,6 +77,11 @@ const menuItems = [
      value: "Meter",
      icon: <MeterLogo />,
    },
+   {
+    key: "0x53",
+    value: "Meter TESTNET",
+    icon: <MeterLogo />,
+  },
 ];
 
 function Chains() {

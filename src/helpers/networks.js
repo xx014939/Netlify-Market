@@ -76,6 +76,14 @@ export const networkConfigs = {
     rpcUrl: "https://rpc.meter.io/",
     blockExplorerUrl: "https://scan.meter.io",
   },
+  "0x53": {
+    chainId: 83,
+    chainName: "Meter TESTNET",
+    currencyName: "MTR",
+    currencySymbol: "MTR",
+    rpcUrl: "https://rpctest.meter.io/",
+    blockExplorerUrl: "https://scan-warringstakes.meter.io/",
+  },
 };
 
 export const getNativeByChain = (chain) =>
