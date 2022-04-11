@@ -77,3 +77,7 @@ export const PolygonCurrency = () => (
     />
   </svg>
 )
+
+export const MeterLogo = () => (
+  <img style={{maxWidth: "18px"}} src="https://icodrops.com/wp-content/uploads/2018/10/Meter_logo.jpg"/>
+)

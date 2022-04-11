@@ -68,6 +68,14 @@ export const networkConfigs = {
     rpcUrl: "https://rpc-mumbai.matic.today/",
     blockExplorerUrl: "https://mumbai.polygonscan.com/",
   },
+  "0x52": {
+    chainId: 82,
+    chainName: "Meter",
+    currencyName: "MTR",
+    currencySymbol: "MTR",
+    rpcUrl: "https://rpc.meter.io/",
+    blockExplorerUrl: "https://scan.meter.io",
+  },
 };
 
 export const getNativeByChain = (chain) =>
