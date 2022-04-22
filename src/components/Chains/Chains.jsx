@@ -3,7 +3,7 @@ import useChain from "hooks/useChain";
 import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
 import { Menu, Dropdown, Button } from "antd";
 import { DownOutlined } from "@ant-design/icons";
-import { AvaxLogo, PolygonLogo, BSCLogo, ETHLogo, MeterLogo } from "./Logos";
+import { AvaxLogo, PolygonLogo, BSCLogo, ETHLogo, MeterLogo, ThetaLogo } from "./Logos";
 
 const styles = {
   item: {
@@ -72,6 +72,16 @@ const menuItems = [
   //  value: "Mumbai",
   //  icon: <PolygonLogo />,
   // },
+  {
+    key: "0x169",
+    value: "Theta",
+    icon: <ThetaLogo />,
+  },
+  {
+    key: "0x16d",
+    value: "Theta Testnet",
+    icon: <ThetaLogo />,
+  },
    {
      key: "0x52",
      value: "Meter",

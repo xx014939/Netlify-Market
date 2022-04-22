@@ -22,6 +22,15 @@ export const useNFTTokenIds = (addr) => {
     limit: 10,
   });
 
+  /*
+    const contract = new web3.eth.Contract(erc20AbiJson, chainId);
+  const tokenBalance = 0;
+  async function getTokenBalance () {
+    tokenBalance = await contract.methods.balanceOf(addr).call();
+  }
+  
+  */ 
+
   useEffect(async () => {
     if (data?.result) {
       const NFTs = data.result;

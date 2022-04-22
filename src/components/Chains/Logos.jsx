@@ -81,3 +81,7 @@ export const PolygonCurrency = () => (
 export const MeterLogo = () => (
   <img style={{maxWidth: "18px"}} src="https://icodrops.com/wp-content/uploads/2018/10/Meter_logo.jpg"/>
 )
+
+export const ThetaLogo = () => (
+  <img style={{maxWidth: "24px"}} src="https://cryptologos.cc/logos/theta-network-theta-logo.png"/>
+)

@@ -84,6 +84,22 @@ export const networkConfigs = {
     rpcUrl: "https://rpctest.meter.io/",
     blockExplorerUrl: "https://scan-warringstakes.meter.io/",
   },
+  "0x16d": {
+    chainId: 365,
+    chainName: "Theta TESTNET",
+    currencyName: "TFUEL",
+    currencySymbol: "TFUEL",
+    rpcUrl: "https://eth-rpc-api-testnet.thetatoken.org/rpc",
+    blockExplorerUrl: "https://testnet-explorer.thetatoken.org/",
+  },
+  "0x169": {
+    chainId: 361,
+    chainName: "Theta",
+    currencyName: "TFUEL",
+    currencySymbol: "TFUEL",
+    rpcUrl: "https://eth-rpc-api.thetatoken.org/rpc",
+    blockExplorerUrl: "https://explorer.thetatoken.org/",
+  }
 };
 
 export const getNativeByChain = (chain) =>
