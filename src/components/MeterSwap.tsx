@@ -24,13 +24,10 @@ function MeterSwap() {
             chainId: ChainId.MAINNET,
             defaultInputValue: '0.000001',
             defaultInputToken: ETH.MAINNET().contractAddress,
-            defaultOutputToken: '0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F',
+            defaultOutputToken: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984',
             supportedTokens: [
               {
                 contractAddress: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984',
-              },
-              {
-                contractAddress: '0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F',
               }
             ],
           },

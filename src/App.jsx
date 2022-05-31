@@ -94,7 +94,7 @@ const App = ({ isServerInfo }) => {
               <NavLink to="/Nft3d">Your 3D NFT's</NavLink>
             </Menu.Item>
             <Menu.Item key="meter">
-              <NavLink to="/MeterSwap">Meter</NavLink>
+              <NavLink to="/Swap">Swap</NavLink>
             </Menu.Item>
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">Your Transactions</NavLink>
@@ -120,7 +120,7 @@ const App = ({ isServerInfo }) => {
             <Route path="/Nft3d">
               <NFT3d />
             </Route>
-            <Route path="/MeterSwap">
+            <Route path="/Swap">
               <MeterSwap />
             </Route>
           </Switch>

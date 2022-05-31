@@ -72,26 +72,26 @@ const menuItems = [
   //  value: "Mumbai",
   //  icon: <PolygonLogo />,
   // },
-  {
-    key: "0x169",
-    value: "Theta",
-    icon: <ThetaLogo />,
-  },
-  {
-    key: "0x16d",
-    value: "Theta Testnet",
-    icon: <ThetaLogo />,
-  },
-   {
-     key: "0x52",
-     value: "Meter",
-     icon: <MeterLogo />,
-   },
-   {
-    key: "0x53",
-    value: "Meter TESTNET",
-    icon: <MeterLogo />,
-  },
+  // {
+  //   key: "0x169",
+  //   value: "Theta",
+  //   icon: <ThetaLogo />,
+  // },
+  // {
+  //   key: "0x16d",
+  //   value: "Theta Testnet",
+  //   icon: <ThetaLogo />,
+  // },
+  //  {
+  //    key: "0x52",
+  //    value: "Meter",
+  //    icon: <MeterLogo />,
+  //  },
+  //  {
+  //   key: "0x53",
+  //   value: "Meter TESTNET",
+  //   icon: <MeterLogo />,
+  // },
 ];
 
 function Chains() {
